@@ -1,0 +1,52 @@
+# Ignore .env file that contains sensitive API keys
+.env
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore FastAPI server files
+*.log
+
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore Node.js dependencies and build artifacts in ui folder
+ui/node_modules/
+ui/.next/
+ui/.turbo/
+ui/dist/
+ui/build/
+
+# Ignore package manager lock files (only keep one if necessary)
+ui/package-lock.json
+ui/yarn.lock
+ui/pnpm-lock.yaml
+
+# Ignore environment files (sensitive info)
+ui/.env
+ui/.env.local
+ui/.env.development
+ui/.env.production
+
+# Ignore logs and debugging files
+ui/npm-debug.log*
+ui/yarn-debug.log*
+ui/yarn-error.log*
+
+# Ignore editor & system files
+ui/.DS_Store
+ui/.vscode/
+ui/.idea/
+ui/.eslintcache
+ui/.parcel-cache/
+
+# Ignore coverage reports
+ui/coverage/
+
+# Ignore temporary files
+ui/tmp/
+ui/out/
+ui/.cache/
